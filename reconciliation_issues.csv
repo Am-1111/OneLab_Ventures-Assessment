@@ -1,0 +1,6 @@
+issue_type,transaction_id,settlement_id,txn_amount,settle_amount,delta,txn_date,settle_date,description
+ROUNDING_DIFF,TXN-99F0C773,SET-00022,1234.565,1234.56,0.005,2024-01-15 12:56:46,2024-01-16,Amount mismatch of ₹0.0050
+CROSS_MONTH,TXN-E59D7FA7,SET-00021,3288.25,3288.25,0.0,2024-01-30 23:10:29,2024-02-02,"Settled in 2024-02, expected 2024-01"
+DUPLICATE_TRANSACTION,TXN-B8258557,,3857.42,,,2024-01-10 14:32:58,,Duplicate transaction_id in platform records
+DUPLICATE_TRANSACTION,TXN-B8258557,,3857.42,,,2024-01-10 14:32:58,,Duplicate transaction_id in platform records
+ORPHAN_REFUND,TXN-ORPHAN1,SET-00024,,-2500.0,,,2024-01-20,Settlement with no platform transaction (ORPHAN_REFUND)
